@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Flex</title>
+</head>
+<body>
+
+  <div class="main-wrapper">
+    <h3>0 - situazione di default</h3>
+    <div class="container">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>1 - display: flex - default</h3>
+    <div class="container c-1 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>2 - flex-direction: column;</h3>
+    <div class="container c-2 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>3 - flex-direction: row-reverse;</h3>
+    <div class="container c-3 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>4 - flex-direction: column-reverse;</h3>
+    <div class="container c-4 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>5 - justify-content: start;</h3>
+    <div class="container c-5 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>6 - justify-content: end;</h3>
+    <div class="container c-6 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>7 - justify-content: end; flex-direction: column;</h3>
+    <div class="container c-7 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>8 - justify-content: space-between;</h3>
+    <div class="container c-8 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+    </div>
+
+    <h3>9 - justify-content: space-around;</h3>
+    <div class="container c-9 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+    </div>
+
+    <h3>10 - justify-content: space-evenly;</h3>
+    <div class="container c-10 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+    </div>
+
+    <h3>11 - justify-content: center;</h3>
+    <div class="container c-11 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>12 - align-items: flex-end;</h3>
+    <div class="container c-12 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>13 - align-items: center;</h3>
+    <div class="container c-13 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>14 - justify-content: center; align-items: center;</h3>
+    <div class="container c-14 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+
+    <h3>15 - align-items: stretch;</h3>
+    <div class="container c-15 d-flex">
+      <div class="box-elastic"><span>1</span></div>
+      <div class="box-elastic"><span>2</span></div>
+      <div class="box-elastic"><span>3</span></div>
+    </div>
+
+    <h3>16 - align-items: baseline;</h3>
+    <div class="container c-16 d-flex">
+      <div class="box-elastic box-100"><span>1</span></div>
+      <div class="box-elastic box-50"><span>2</span></div>
+      <div class="box-elastic box-150"><span>3</span></div>
+      <div class="box-elastic box-200"><span>4</span></div>
+    </div>
+
+    <h3>17 - flex-wrap: wrap;</h3>
+    <div class="container c-17 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+      <div class="box"><span>5</span></div>
+      <div class="box"><span>6</span></div>
+      <div class="box"><span>7</span></div>
+      <div class="box"><span>8</span></div>
+      <div class="box"><span>9</span></div>
+      <div class="box"><span>10</span></div>
+    </div>
+
+    <h3>18 - flex-wrap: wrap; flex-direction: column;</h3>
+    <div class="container c-18 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+      <div class="box"><span>5</span></div>
+      <div class="box"><span>6</span></div>
+      <div class="box"><span>7</span></div>
+      <div class="box"><span>8</span></div>
+      <div class="box"><span>9</span></div>
+      <div class="box"><span>10</span></div>
+    </div>
+
+    <h3>19 - flex-wrap: wrap-reverse;</h3>
+    <div class="container c-19 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+      <div class="box"><span>5</span></div>
+      <div class="box"><span>6</span></div>
+      <div class="box"><span>7</span></div>
+      <div class="box"><span>8</span></div>
+      <div class="box"><span>9</span></div>
+      <div class="box"><span>10</span></div>
+    </div>
+
+    <h3>20 - flex-grow;</h3>
+    <div class="container c-20 d-flex">
+      <div class="box uno"><span>1</span></div>
+      <div class="box due"><span>2</span></div>
+      <div class="box tre"><span>3</span></div>
+      <div class="box quattro"><span>4</span></div>
+    </div>
+
+    <h3>21 - flex-grow=1;</h3>
+    <div class="container c-21 d-flex">
+      <div class="box logo"><span>LOGO</span></div>
+      <div class="box menu"><span>MENU</span></div>
+      <div class="box"><span>BTN</span></div>
+    </div>
+
+    <h3>22 -  flex-shrink: 0;</h3>
+    <div class="container c-22 d-flex">
+      <div class="box"><span>1</span></div>
+      <div class="box non-mi-schiaccio"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+      <div class="box"><span>4</span></div>
+      <div class="box"><span>5</span></div>
+      <div class="box"><span>6</span></div>
+      <div class="box"><span>7</span></div>
+      <div class="box"><span>8</span></div>
+      <div class="box"><span>9</span></div>
+      <div class="box"><span>10</span></div>
+    </div>
+
+    <h3>23 - shrink;</h3>
+    <div class="container c-23 d-flex">
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box non-mi-schiaccio">X</div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box s-1"><span>|</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box s-2"><span>||</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+      <div class="box"><span>.</span></div>
+    </div>
+
+    <h3>24 - order</h3>
+    <div class="container c-24 d-flex">
+      <div class="box uno"><span>1</span></div>
+      <div class="box due"><span>2</span></div>
+      <div class="box tre"><span>3</span></div>
+      <div class="box quattro"><span>4</span></div>
+    </div>
+
+
+
+  </div>
+  
+
+  
+</body>
+</html>
